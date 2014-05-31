@@ -1,0 +1,97 @@
+void GroupManager::bubbleResized( ItemBase* init, QRectF oriRect, int cornerIndex)
+{
+	if ( init == NULL )	return;
+
+	//	unhighlight
+	if( this->_selected.contains( init ) )
+	{
+	}
+	else
+	{
+		//if(!init->isMoving())
+		{
+			unHightLightAll();
+		    this->_selected.clear();
+		}
+	}
+
+	int type = init->getType();
+	if(type > -1 && ( type != COLOR || type != COMPLOT ))
+	{
+		shiftNeighborforResizing(BUBBLERESIZED, init, oriRect, cornerIndex, false, false);		
+	}
+
+	init->resizeFinished=true;
+	this->_ONMOVING = false;
+	return;
+}
+
+
+bool GroupManager::shiftNeighborforResizing(int eventType, ItemBase* init, QRectF oriRect, int cornerIndex, bool notLayoutGroup, bool setPos)
+{
+	Group *B;
+	QList<ItemBase*> list; 
+		
+	bool shifted=false;
+	vector<QRectF> rectList = B->assignSceneRectList(list);
+		
+	B=getGroup(init);	  
+	list = B->getMembers(); 
+    rectList = B->assignRectList(list);	
+
+	set<int> initSet; 
+	
+	vector<set<int> > familySets = GroupToFamily(list);//, init);
+	int initID=B->getFamilyID(B->getMemberID(init), familySets);
+	initSet.insert(initID); 
+
+	for(int i=0; i<familySets.size(); i++)
+	{
+		if(familySets[i].size()>1)
+		if(familySets[i].find(initID)!=familySets[i].end())
+		{
+            familySets[i].erase(initID);
+			set<int> tSet; 
+			tSet.insert(initID);
+			familySets.push_back(tSet);
+		    break;
+		}
+	}
+	vector<QRectF> aList=rectList;
+		
+	vector<int> parentList = getParentList(list, familySets);
+	rectList = 	B->lineUpDisplay(eventType, list, parentList, initSet, list.size(), familySets, rectList, list[0]->screenWidth, list[0]->screenHeight, oriRect, cornerIndex);//list should include initSet
+	
+	//B->adjustOverlaid(initID, rectList, parentList, familySets, list[0]->screenWidth, list[0]->screenHeight, oriRect, cornerIndex, 0, 0);//not shift neighborsrectList = 	B->lineUpDisplay(eventType, list, parentList, initSet, list.size(), familySets, rectList, list[0]->screenWidth, list[0]->screenHeight, oriRect, cornerIndex);//list should include initSet
+
+	//need to get this out and set target after all the bubble location are settled
+	vector<QPointF> stepSize;
+	if(!setPos)
+	{
+		stepSize = getSynchronizedSpeed(list, aList, rectList);
+	}
+	for(int i=0; i<list.size(); i++)
+	{
+		//this->getMemberAt(i)->setTargetPos( QPointF(rectList[i].x()-getMemberAt(i)->realRect().x(),rectList[i].y()-getMemberAt(i)->realRect().y()) );		
+        if(rectList[i].x()>-10000 && rectList[i].x()<10000 && aList[i]!=rectList[i])
+		{
+			//QPointF center(AllRectList[i].x()+AllRectList[i].width()/2)			
+			float x = rectList[i].x() == aList[i].x()? list[i]->pos().x() : float(rectList[i].x())+float(rectList[i].width())/2.0;
+			float y = rectList[i].y() == aList[i].y()? list[i]->pos().y() : float(rectList[i].y())+float(rectList[i].height())/2.0;
+
+			if(setPos)
+				list[i]->mySetPos( QPointF(x, y));		
+			else				
+				list[i]->setTargetPos( QPointF(x, y), stepSize[i], true);						
+				
+			shifted=true;
+		}	
+	}
+	if(!notLayoutGroup)
+	    lineUpDisplayGroups(list, rectList, false);	
+	//lineUpDisplay(list,	init, list.size(), list[0]->screenWidth, list[0]->screenHeight, true);	
+	
+	return shifted;	
+}
+
+

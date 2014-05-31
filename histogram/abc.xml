@@ -1,0 +1,37 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<Scene>
+    <NavigationBlock>
+        <CurrentViewRect>(0, 0, 85, 50)</CurrentViewRect>
+        <AllBookMark/>
+    </NavigationBlock>
+    <Group groupID="1">
+        <Bubble bubbleID="-1">
+            <Type>PathBubble1</Type>
+            <Position>(729.395, 321.421)</Position>
+            <Size>(300,375)</Size>
+            <BoarderColor>(0, 255, 255)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <PathPre></PathPre>
+            <FileName>MitoticG2-G2</FileName>
+            <subGraphBubbles/>
+            <DescendantBubble/>
+            <TextBubblePosition/>
+            <ReactionBubblePosition/>
+            <GroupBubblePosition/>
+        </Bubble>
+        <Bubble bubbleID="-1">
+            <Type>PathBubble1</Type>
+            <Position>(373.605, 261.579)</Position>
+            <Size>(400,600)</Size>
+            <BoarderColor>(0, 255, 255)</BoarderColor>
+            <HighlightColor>(0, 255, 255)</HighlightColor>
+            <PathPre></PathPre>
+            <FileName>BMP</FileName>
+            <subGraphBubbles/>
+            <DescendantBubble/>
+            <TextBubblePosition/>
+            <ReactionBubblePosition/>
+            <GroupBubblePosition/>
+        </Bubble>
+    </Group>
+</Scene>

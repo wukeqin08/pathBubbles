@@ -1,0 +1,33 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<Scene>
+    <NavigationBlock>
+        <CurrentViewRect>(0, 0, 85, 50)</CurrentViewRect>
+        <AllBookMark/>
+    </NavigationBlock>
+    <Group groupID="1">
+        <Bubble bubbleID="-1">
+            <Type>expressionBubble</Type>
+            <Position>(732, 383)</Position>
+            <Size>(400,400)</Size>
+            <BoarderColor>(125, 215, 143)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <PathPre></PathPre>
+            <FileName>TGF</FileName>
+            <bindPathwayID>0</bindPathwayID>
+        </Bubble>
+        <Bubble bubbleID="-1">
+            <Type>PathBubble1</Type>
+            <Position>(332, 383)</Position>
+            <Size>(400,600)</Size>
+            <BoarderColor>(125, 215, 143)</BoarderColor>
+            <HighlightColor>(125, 215, 143)</HighlightColor>
+            <PathPre></PathPre>
+            <FileName>BMP</FileName>
+            <subGraphBubbles/>
+            <DescendantBubble/>
+            <TextBubblePosition/>
+            <ReactionBubblePosition/>
+            <GroupBubblePosition/>
+        </Bubble>
+    </Group>
+</Scene>

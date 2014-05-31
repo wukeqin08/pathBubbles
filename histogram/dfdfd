@@ -1,0 +1,86 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<Scene>
+    <NavigationBlock>
+        <CurrentViewRect>(0, 0, 81, 50)</CurrentViewRect>
+        <AllBookMark/>
+    </NavigationBlock>
+    <Group groupID="1">
+        <Bubble bubbleID="1">
+            <Type>subPathBubble1</Type>
+            <Position>(924.5, 747.5)</Position>
+            <Size>(771,401)</Size>
+            <BoarderColor>(0, 255, 221)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <PathPre></PathPre>
+            <FileName>Sub()</FileName>
+            <ParentBubble>
+                <FileName>data/Reactome_Pathway_Data/pathwayTable/156582_</FileName>
+                <Position>(370.5, 591.5)</Position>
+            </ParentBubble>
+            <subGraphBubbles>
+                <connection>0,82,3,1,80,0,</connection>
+                <connection>1,80,0,0,82,1,</connection>
+            </subGraphBubbles>
+            <DescendantBubble/>
+            <TextBubblePosition/>
+            <ReactionBubblePosition/>
+            <GroupBubblePosition/>
+            <initEdges>
+                <edge>83,-1,80,0,82,-1,-1,</edge>
+                <edge>80,-1,80,0,82,-1,-1,</edge>
+                <edge>80,0,80,-1,82,-1,-1,</edge>
+                <edge>80,0,83,-1,82,-1,-1,</edge>
+                <edge>80,0,82,1,82,-1,-1,</edge>
+                <edge>80,-1,82,1,82,-1,-1,</edge>
+            </initEdges>
+            <initItems>
+                <item>80,2,</item>
+            </initItems>
+        </Bubble>
+        <Bubble bubbleID="0">
+            <Type>PathBubble1</Type>
+            <Position>(370.5, 591.5)</Position>
+            <Size>(337,337)</Size>
+            <BoarderColor>(0, 255, 221)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <PathPre></PathPre>
+            <FileName>data/Reactome_Pathway_Data/pathwayTable/156582_</FileName>
+            <subGraphBubbles>
+                <connection>0,82,3,1,80,0,</connection>
+                <connection>1,80,0,0,82,1,</connection>
+            </subGraphBubbles>
+            <DescendantBubble>
+                <Descendant descID="1">
+                    <FileName>Sub()</FileName>
+                    <Position>(924.5, 747.5)</Position>
+                </Descendant>
+            </DescendantBubble>
+            <TextBubblePosition/>
+            <ReactionBubblePosition/>
+            <GroupBubblePosition>
+                <Position posID="1">
+                    <ConPoint>(2.92029, 2.87089)</ConPoint>
+                </Position>
+            </GroupBubblePosition>
+        </Bubble>
+    </Group>
+    <Group groupID="2">
+        <Bubble bubbleID="2">
+            <Type>PathBubble1</Type>
+            <Position>(1569.5, 533)</Position>
+            <Size>(439,504)</Size>
+            <BoarderColor>(0, 255, 255)</BoarderColor>
+            <HighlightColor>(0, 0, 0)</HighlightColor>
+            <PathPre></PathPre>
+            <FileName>data/Reactome_Pathway_Data/pathwayTable/2161522_</FileName>
+            <subGraphBubbles>
+                <connection>0,82,3,1,80,0,</connection>
+                <connection>1,80,0,0,82,1,</connection>
+            </subGraphBubbles>
+            <DescendantBubble/>
+            <TextBubblePosition/>
+            <ReactionBubblePosition/>
+            <GroupBubblePosition/>
+        </Bubble>
+    </Group>
+</Scene>

@@ -1,0 +1,801 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<Pathway>
+    <compartmentBlock Num="20">
+        <compartment j="0">
+            <Name>cytosol</Name>
+            <Position>(0.338604, 0.397625, 0.322791, 0.1995)</Position>
+        </compartment>
+        <compartment j="1">
+            <Name>Golgi lumen</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+        </compartment>
+        <compartment j="2">
+            <Name>Golgi membrane</Name>
+            <Position>(-1000, -1000, 0.1, 0.1)</Position>
+        </compartment>
+        <compartment j="3">
+            <Name>cytosol</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+        </compartment>
+        <compartment j="4">
+            <Name></Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+        </compartment>
+        <compartment j="5">
+            <Name>early endosome membrane</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+        </compartment>
+        <compartment j="6">
+            <Name>mitochondrial inner membrane</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+        </compartment>
+        <compartment j="7">
+            <Name>mitochondrial outer membrane</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+        </compartment>
+        <compartment j="8">
+            <Name>photoreceptor disc membrane</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+        </compartment>
+        <compartment j="9">
+            <Name>lysosomal membrane</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+        </compartment>
+        <compartment j="10">
+            <Name>endoplasmic reticulum membrane</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+        </compartment>
+        <compartment j="11">
+            <Name>plasma membrane</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+        </compartment>
+        <compartment j="12">
+            <Name>endosome membrane</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+        </compartment>
+        <compartment j="13">
+            <Name>nuclear envelope</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+        </compartment>
+        <compartment j="14">
+            <Name>chromosome, centromeric region</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+        </compartment>
+        <compartment j="15">
+            <Name>chromosome</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+        </compartment>
+        <compartment j="16">
+            <Name>nucleoplasm</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+        </compartment>
+        <compartment j="17">
+            <Name>extracellular region</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+        </compartment>
+        <compartment j="18">
+            <Name>cell junction</Name>
+            <Position>(-1000, -1, 0.1, 0.1)</Position>
+        </compartment>
+        <compartment j="19">
+            <Name>whole</Name>
+            <Position>(-1000, 0.453926, 0.1, 0.1)</Position>
+        </compartment>
+    </compartmentBlock>
+    <complexBlock Num="12">
+        <complex j="1">
+            <Name>60S ribosomal complex</Name>
+            <Position>(0.428106, 0.408135, 0.0264102, 0.0140912)</Position>
+        </complex>
+        <complex j="2">
+            <Name>60s ribosomal complex lacking L13a subunit</Name>
+            <Position>(0.340072, 0.448035, 0.0264102, 0.0140912)</Position>
+        </complex>
+        <complex j="3">
+            <Name>43S: Ceruloplasmin mRNA:eIF4F:eIF4B:eIF4H:PABP</Name>
+            <Position>(0.340072, 0.487935, 0.0264102, 0.0140912)</Position>
+        </complex>
+        <complex j="4">
+            <Name>eIF4F</Name>
+            <Position>(-1000, -1000, 0.2, 0.03)</Position>
+        </complex>
+        <complex j="5">
+            <Name>eIF4A subunits complex</Name>
+            <Position>(-1000, -1000, 0.2, 0.03)</Position>
+        </complex>
+        <complex j="6">
+            <Name>43S complex</Name>
+            <Position>(-1000, -1000, 0.2, 0.03)</Position>
+        </complex>
+        <complex j="7">
+            <Name>eIF3 subunits complex</Name>
+            <Position>(-1000, -1000, 0.2, 0.03)</Position>
+        </complex>
+        <complex j="8">
+            <Name>ternary complex</Name>
+            <Position>(-1000, -1000, 0.2, 0.03)</Position>
+        </complex>
+        <complex j="9">
+            <Name>eIF2:GTP</Name>
+            <Position>(-1000, -1000, 0.2, 0.03)</Position>
+        </complex>
+        <complex j="10">
+            <Name>MP</Name>
+            <Position>(-1000, -1000, 0.2, 0.03)</Position>
+        </complex>
+        <complex j="11">
+            <Name>40S ribosomal complex</Name>
+            <Position>(-1000, -1000, 0.2, 0.03)</Position>
+        </complex>
+        <complex j="12">
+            <Name>phospho-L13a associated wth the  3' UTR GAIT element of ceruloplasmin mRNA within  the translation initiation complex</Name>
+            <Position>(0.428106, 0.527835, 0.0264102, 0.0140912)</Position>
+        </complex>
+    </complexBlock>
+    <proteinBlock Num="105">
+        <protein j="1">
+            <Name>RPL10A</Name>
+            <Position>(0.375285, 0.443681, 0.132051, 0.0228)</Position>
+        </protein>
+        <protein j="2">
+            <Name>RPL10</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="3">
+            <Name>RPL36</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="4">
+            <Name>L1</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="5">
+            <Name>RPL7A</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="6">
+            <Name>RPL13A</Name>
+            <Position>(0.522008, 0.443681, 0.132051, 0.0228)</Position>
+        </protein>
+        <protein j="7">
+            <Name>L23</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="8">
+            <Name>RPL27A</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="9">
+            <Name>RPL39</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="10">
+            <Name>RPL35</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="11">
+            <Name>RPL18A</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="12">
+            <Name>RPL23A</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="13">
+            <Name>RPL19</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="14">
+            <Name>RPL35A</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="15">
+            <Name>RPL14</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="16">
+            <Name>RPL38</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="17">
+            <Name>RPL32</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="18">
+            <Name>CEP52</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="19">
+            <Name>HG12</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="20">
+            <Name>RPL27</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="21">
+            <Name>RPL3</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="22">
+            <Name>RPL30</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="23">
+            <Name>RPL31</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="24">
+            <Name>RPLP2</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="25">
+            <Name>RPL37A</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="26">
+            <Name>RPL11</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="27">
+            <Name>RPL5</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="28">
+            <Name>RPL21</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="29">
+            <Name>RPL37</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="30">
+            <Name>L36a</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="31">
+            <Name>RPL34</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="32">
+            <Name>L17</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="33">
+            <Name>RPL3L</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="34">
+            <Name>RPL6</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="35">
+            <Name>RPL15</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="36">
+            <Name>RPL29</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="37">
+            <Name>RPL9</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="38">
+            <Name>L30</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="39">
+            <Name>RPL13</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="40">
+            <Name>EAP</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="41">
+            <Name>RPLP1</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="42">
+            <Name>RPL18</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="43">
+            <Name>RPL8</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="44">
+            <Name>L10E</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="45">
+            <Name>RPL28</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="46">
+            <Name>RPL7</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="47">
+            <Name>Q9UNX3</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="48">
+            <Name>RPL26</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="49">
+            <Name>RPL12</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="50">
+            <Name>p-RPL13A</Name>
+            <Position>(0.375285, 0.483581, 0.132051, 0.0228)</Position>
+        </protein>
+        <protein j="51">
+            <Name>EIF4H</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="52">
+            <Name>EIF4E</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="53">
+            <Name>EIF4A2</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="54">
+            <Name>EIF4A1</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="55">
+            <Name>P220</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="56">
+            <Name>PABP</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="57">
+            <Name>EIF4B</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="58">
+            <Name>EIF3F</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="59">
+            <Name>EIF3G</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="60">
+            <Name>EIF3A</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="61">
+            <Name>EIF3H</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="62">
+            <Name>EIF3K</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="63">
+            <Name>EIF3I</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="64">
+            <Name>EIF3D</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="65">
+            <Name>EIF3E</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="66">
+            <Name>EIF3B</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="67">
+            <Name>EIF3J</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="68">
+            <Name>EIF3C</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="69">
+            <Name>EIF2S3</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="70">
+            <Name>EIF2S2</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="71">
+            <Name>EIF2S1</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="72">
+            <Name>RPS12</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="73">
+            <Name>RPS5</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="74">
+            <Name>RPS15</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="75">
+            <Name>RPS6</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="76">
+            <Name>RPS10</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="77">
+            <Name>RPS25</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="78">
+            <Name>S19</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="79">
+            <Name>RPS15A</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="80">
+            <Name>RPS23</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="81">
+            <Name>RPS19</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="82">
+            <Name>RPS17</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="83">
+            <Name>S4</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="84">
+            <Name>RPS4X</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="85">
+            <Name>RPS21</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="86">
+            <Name>RPS26</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="87">
+            <Name>RPS27</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="88">
+            <Name>RPS8</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="89">
+            <Name>RPS29</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="90">
+            <Name>FAU</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="91">
+            <Name>KE3</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="92">
+            <Name>RPS16</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="93">
+            <Name>RPS14</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="94">
+            <Name>RPS27A(77-156)</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="95">
+            <Name>RPS11</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="96">
+            <Name>RPS3</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="97">
+            <Name>RPS13</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="98">
+            <Name>RPS28</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="99">
+            <Name>P40</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="100">
+            <Name>RPS9</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="101">
+            <Name>S8</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="102">
+            <Name>RPS4Y1</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="103">
+            <Name>RPS20</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="104">
+            <Name>RPS3A</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+        <protein j="105">
+            <Name>eIF1A</Name>
+            <Position>(-1000, -1000, 1, 0.03)</Position>
+        </protein>
+    </proteinBlock>
+    <physicalEntityBlock Num="50">
+        <physicalEntity j="1">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="2">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="3">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="4">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="5">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="6">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="7">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="8">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="9">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="10">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="11">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="12">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="13">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="14">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="15">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="16">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="17">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="18">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="19">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="20">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="21">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="22">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="23">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="24">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="25">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="26">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="27">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="28">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="29">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="30">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="31">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="32">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="33">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="34">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="35">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="36">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="37">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="38">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="39">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="40">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="41">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="42">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="43">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="44">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="45">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="46">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="47">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="48">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="49">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+        <physicalEntity j="50">
+            <Name></Name>
+            <Position>(-1000, -1000, 1.2, 0.03)</Position>
+        </physicalEntity>
+    </physicalEntityBlock>
+    <smallMoleculeBlock Num="0"/>
+    <DnaBlock Num="0"/>
+    <reactionBlock Num="3">
+        <reaction j="1">
+            <Name></Name>
+            <Position>(0.436311, 0.511527, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="2">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.01, 0.01)</Position>
+        </reaction>
+        <reaction j="3">
+            <Name></Name>
+            <Position>(-1000, -1000, 0.01, 0.01)</Position>
+        </reaction>
+    </reactionBlock>
+    <edgeBlock Num="6">
+        <edge j="0">
+            <Name></Name>
+            <Position>(67, 1, 82, 1, 80, 6, 2)</Position>
+        </edge>
+        <edge j="1">
+            <Name></Name>
+            <Position>(67, 1, 82, 1, 67, 2, 2)</Position>
+        </edge>
+        <edge j="2">
+            <Name></Name>
+            <Position>(80, 6, 82, 2, 80, 50, 2)</Position>
+        </edge>
+        <edge j="3">
+            <Name></Name>
+            <Position>(80, 1, 82, 2, 82, 1, 2)</Position>
+        </edge>
+        <edge j="4">
+            <Name></Name>
+            <Position>(80, 50, 82, 3, 67, 12, 2)</Position>
+        </edge>
+        <edge j="5">
+            <Name></Name>
+            <Position>(67, 3, 82, 3, 67, 12, 2)</Position>
+        </edge>
+    </edgeBlock>
+</Pathway>
